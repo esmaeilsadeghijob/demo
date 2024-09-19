@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: aGuIqEjvGGQkUvlTffePVOmlusSFiGhP
-    url: mysql://root:aGuIqEjvGGQkUvlTffePVOmlusSFiGhP@mysql.railway.internal:3306/railway
+    url: jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
